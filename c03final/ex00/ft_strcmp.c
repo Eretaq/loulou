@@ -6,12 +6,12 @@
 /*   By: sel-mall <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 20:31:39 by sel-mall          #+#    #+#             */
-/*   Updated: 2025/02/23 17:28:43 by sel-mall         ###   ########.fr       */
+/*   Updated: 2025/02/23 17:35:45 by sel-mall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 
-int	ft_strncmp(char *s1, char*s2)
+int	ft_strcmp(char *s1, char*s2)
 {
 	int	i;
 
@@ -30,3 +30,14 @@ int	ft_strncmp(char *s1, char*s2)
 	}
 	return (0);
 }
+
+/*int main()
+{
+    char    s1[] = "11212";
+    char    s2[] = "115565644664546564";
+
+
+
+    printf("Resultat: %d", ft_strcmp(s1, s2));
+    return (0);
+}*/
