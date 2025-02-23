@@ -6,7 +6,7 @@
 /*   By: sel-mall <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 14:17:55 by sel-mall          #+#    #+#             */
-/*   Updated: 2025/02/23 15:35:22 by sel-mall         ###   ########.fr       */
+/*   Updated: 2025/02/23 17:25:58 by sel-mall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -34,11 +34,11 @@ int	main(int argc, char *argv[])
 {
 	int	i;
 
-	if (argc == 1)
+	i = 0 ;
+	if (argc >= 1)
 	{
 		ft_putstr(argv[i]);
 		ft_putchar('\n');
 	}
-	else
-		return (0);
+	return (0);
 }
